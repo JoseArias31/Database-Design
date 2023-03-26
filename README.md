@@ -10,22 +10,22 @@ Mission Statement:
 The primary objective of an online business that receives, prints, and sends documents is to establish a comprehensive database that collects all the information related to customer orders, tracking updates, and files stored on the platform. By doing this, the business can make its operations more straightforward and efficient, making it easier to handle both low and high levels of demand. This ensures that the business performs consistently well, regardless of the volume of orders it receives.
 
 Entities:
-•	Website (SenDo): Online platform for business purposes that received customer’s orders.
-•	Web Developer: Programmers that build the website, track and store information an operate the whole printing and sending documents process.
-•	Customer: The person who order the document(s)
-•	Orders: The record of a customer’s order for document printing and sending
-•	Files: Documents uploaded by customer(s)
-•	Print day: Date where the documents were printed and ready to send
-•	Delivery service: The company responsible for delivering orders made by customer(s). 
-•	Tracking number: The unique tracking number per order made by customer(s)
+* Website (SenDo): Online platform for business purposes that received customer’s orders.
+* Web Developer: Programmers that build the website, track and store information an operate the whole printing and sending documents process.
+* Customer: The person who order the document(s)
+* Orders: The record of a customer’s order for document printing and sending
+* Files: Documents uploaded by customer(s)
+* Print day: Date where the documents were printed and ready to send
+* Delivery service: The company responsible for delivering orders made by customer(s). 
+* Tracking number: The unique tracking number per order made by customer(s)
 
 Relationships:
 
-•	A Website must have one or more Customers. Customers must have one and more Orders.
-•	Orders must have one or more Customers. An Order must have one or more Files.
-•	Files must have one and only Print Day. A Print Day must have one and only Delivery Service.
-•	A Delivery Service must work with one or more Tracking numbers. Customer may have one or more Tracking numbers. 
-•	Tracking Number must be validated by a website.
+* A Website must have one or more Customers. Customers must have one and more Orders.
+* Orders must have one or more Customers. An Order must have one or more Files.
+* Files must have one and only Print Day. A Print Day must have one and only Delivery Service.
+* A Delivery Service must work with one or more Tracking numbers. Customer may have one or more Tracking numbers. 
+* Tracking Number must be validated by a website.
 
 Entity Relationship Diagram:
 
