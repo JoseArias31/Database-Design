@@ -37,13 +37,11 @@ Website (Online Business Name_ID)
 
 Customer (Customer_ID, Order_ID(FK), First Name, Last Name, Phone Number, Email Address)
 
-Order (Order_ID, Files_ID(FK), Print Date_ID(FK), Delivery Service_ID) (FK))
+Order (Order_ID, Files_ID(FK), Delivery Service_ID) (FK))
 
 Files (Files_ID, Size Paper, Number of pages)
 
-Print Date (Print Date_ID)
-
-Delivery Service (Delivery Service_ ID, Print Day_ID(FK), Order Date, Delivery Date)
+Delivery Service (Delivery Service_ ID, Order Date, Delivery Date, Print Date)
 
 Delivery Service_Tracking Number (Tracking Number_ID(FK), Delivery Service_ID(FK))
 
