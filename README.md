@@ -31,6 +31,8 @@ Entity Relationship Diagram:
 
 https://drive.google.com/file/d/16uR0z3qfUE6EU3TEifA8RkrK55HqHUgj/view?usp=sharing
 
+![image](https://user-images.githubusercontent.com/115059715/227781661-4d93f2d9-b644-4da0-9467-519523841272.png)
+
 Relational Mode:
 
 Website (Online Business Name_ID)
