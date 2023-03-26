@@ -1,4 +1,4 @@
-# Database-Design 1st Assignment 
+# Database-Design 1st and 2nd Assignment 
 
 By Jose Arias
 SenDo: Online Business, print and send documents
