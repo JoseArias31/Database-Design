@@ -33,17 +33,19 @@ https://drive.google.com/file/d/16uR0z3qfUE6EU3TEifA8RkrK55HqHUgj/view?usp=shari
 
 **Relational Mode**:
 
-Website (Online Business Name_ID)
+Website (Online Business Name_ID, Website_Name, Created_at, Updated_at)
 
-Customer (Customer_ID, Order_ID(FK), First Name, Last Name, Phone Number, Email Address)
+Customer (Customer_ID, Order_ID(FK), First Name, Last Name, Phone Number, Email Address, Created_at, Updated_at)
 
-Order (Order_ID, Files_ID(FK), Delivery Service_ID) (FK))
+Order (Order_ID, Created_at, Updated_at Files_ID(FK), Delivery Service_ID) (FK))
 
-Files (Files_ID, Size Paper, Number of pages)
+Files (Files_ID, Size Paper, Number of pages, Created_at, Updated_at)
 
-Delivery Service (Delivery Service_ ID, Order Date, Delivery Date, Print Date)
+Delivery Service (Delivery Service_ ID, Order Date, Delivery Date, Created_at, Updated_at)
 
-Delivery Service_Tracking Number (Tracking Number_ID(FK), Delivery Service_ID(FK))
+Customer_has_Tracking_Number(Tracking Number_ID(FK), Customer_ID(FK), Created_at, Updated_at)
+
+Customer_has_Orders(Order_ID(FK), Customer_ID(FK))
 
 Website_Customer (Online Business Name_ID(FK), Customer_ID(FK))
 
