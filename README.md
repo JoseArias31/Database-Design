@@ -20,7 +20,7 @@ The primary objective of an online business that receives, prints, and sends doc
 
 Relationships:
 
-* A Website **must** have one or more Customers. Customers **must** have one and more Orders.
+* A Website **must** have one or more Customers. Customer **must** have one or more Orders.
 * Orders **must** have one or more Customers. An Order **must** have one or more Files.
 * Files **must** have one and only Delivery Service. A Delivery Service **must** work with one or more Tracking numbers.
 * Customer **may** have one or more Tracking numbers. Tracking Number **must** be validated by a website.
@@ -35,19 +35,21 @@ https://drive.google.com/file/d/16uR0z3qfUE6EU3TEifA8RkrK55HqHUgj/view?usp=shari
 
 Website (Online Business Name_ID, Website_Name, Created_at, Updated_at)
 
-Customer (Customer_ID, Order_ID(FK), First Name, Last Name, Phone Number, Email Address, Created_at, Updated_at)
+Customer (Customer_ID, Order_ID(FK), First Name, Last Name, Phone Number, Email Address, Created_at, Updated_at, Country, City)
 
-Order (Order_ID, Created_at, Updated_at Files_ID(FK), Delivery Service_ID) (FK))
+Order (Order_ID, Created_at, Updated_at, Print_Day, Customer_ID(FK), Delivery Service_ID(FK), Total_Purchase)
 
-Files (Files_ID, Size Paper, Number of pages, Created_at, Updated_at)
+Files (Document_ID, Size Paper, Number of pages, Created_at, Updated_at, Order_Order_ID(FK))
 
-Delivery Service (Delivery Service_ ID, Order Date, Delivery Date, Created_at, Updated_at)
+Delivery Service (Delivery Service_ ID, Order Date, Delivery Date, Created_at, Updated_at, Tracking_Number_Tracking_Number_ID(FK), Carrier)
 
-Customer_has_Tracking_Number(Tracking Number_ID(FK), Customer_ID(FK), Created_at, Updated_at)
+Tracking_Number (Tracking_Number_ID, Created_at, Updated_at, Website_Online_Business_Name_ID)
 
-Customer_has_Orders(Order_ID(FK), Customer_ID(FK))
+Customer_has_Tracking_Number(Tracking Number_Tracking_ID(FK), Customer_Customer_ID(FK)
 
-Website_Customer (Online Business Name_ID(FK), Customer_ID(FK))
+Customer_has_Orders(Customer_Customer_ID(FK), Orders_Order_ID(FK))
+
+Website_Customer (ID, Online Business Name_ID(FK), Customer_ID(FK))
 
 **DATABASE CREATION (MySQL)**
 
