@@ -6,6 +6,15 @@ By **Jose Arias**
 **Figma Design**: 
 https://www.figma.com/file/nhFOQlLviLvpCT6KmrNie9/SenDo?node-id=0%3A1&t=fBi9iL9HGuuHPCZ0-1
 
+![image](https://user-images.githubusercontent.com/115059715/230811893-52b84e4e-e1f0-477e-88ff-a6d15a9a251e.png)
+
+![image](https://user-images.githubusercontent.com/115059715/230812047-32458c6d-85ee-47c3-b63f-de18af7e86cd.png)
+
+![image](https://user-images.githubusercontent.com/115059715/230812101-f195d43c-fc6d-47b1-b858-35f7953bb703.png)
+
+![image](https://user-images.githubusercontent.com/115059715/230812159-22af9598-bf01-4e4b-b211-71584cfcbbfe.png)
+
+
 Mission Statement:
 The primary objective of an online business that receives, prints, and sends documents is to establish a comprehensive database that collects all the information related to customer orders, tracking updates, and files stored on the platform. By doing this, the business can make its operations more straightforward and efficient, making it easier to handle both low and high levels of demand. This ensures that the business performs consistently well, regardless of the volume of orders it receives.
 
