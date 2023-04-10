@@ -51,7 +51,8 @@ Website_Customer (Online Business Name_ID(FK), Customer_ID(FK))
 
 **DATABASE CREATION (MySQL)**
 
-![image](https://user-images.githubusercontent.com/115059715/228426138-83cf7356-9499-49bf-8dd9-e98e1dbec01e.png)
+![image](https://user-images.githubusercontent.com/115059715/230806764-d815a345-652e-49bd-95c2-1bd057f978d5.png)
+
 
 
 
