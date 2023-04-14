@@ -44,7 +44,7 @@ https://drive.google.com/file/d/16uR0z3qfUE6EU3TEifA8RkrK55HqHUgj/view?usp=shari
 
 Website (Online Business Name_ID, Website_Name, Created_at, Updated_at)
 
-Customer (Customer_ID, Order_ID(FK), First Name, Last Name, Phone Number, Email Address, Created_at, Updated_at, Country, City)
+Customer (Customer_ID, Order_ID(FK), First Name, Last Name, Phone Number, Email Address, My_password, Created_at, Updated_at, Country, City)
 
 Order (Order_ID, Created_at, Updated_at, Print_Day, Customer_ID(FK), Delivery Service_ID(FK), Total_Purchase)
 
