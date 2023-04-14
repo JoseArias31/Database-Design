@@ -62,6 +62,8 @@ Website_Customer (ID, Online Business Name_ID(FK), Customer_ID(FK))
 
 **DATABASE CREATION (MySQL)**
 
+EER DIAGRAM: 
+
 ![image](https://user-images.githubusercontent.com/115059715/232167937-74f94349-334c-45c2-bb75-d366024de589.png)
 
 
