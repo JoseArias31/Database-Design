@@ -1,0 +1,31 @@
+SELECT * FROM my_project.Tracking_Number;
+
+INSERT INTO Tracking_Number (Created_at, Updated_at, Website_Online_Business_Name_ID) VALUES 
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1),
+(NOW(), NOW(), 1);
+
