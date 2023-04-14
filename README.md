@@ -38,7 +38,7 @@ Relationships:
 
 https://drive.google.com/file/d/16uR0z3qfUE6EU3TEifA8RkrK55HqHUgj/view?usp=sharing
 
-![image](https://user-images.githubusercontent.com/115059715/230811369-adcdcaab-44fc-469e-89a5-f98f111ed588.png)
+![image](https://user-images.githubusercontent.com/115059715/232168058-af91bf15-2876-4c18-b51f-2a70b895b6ff.png)
 
 **Relational Mode**:
 
