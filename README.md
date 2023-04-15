@@ -25,7 +25,7 @@ The primary objective of an online business that receives, prints, and sends doc
 * **Orders**: The record of a customer’s order for document printing and sending
 * **Files**: Documents uploaded by customer(s)
 * **Delivery service**: The company responsible for delivering orders made by customer(s). 
-* **Tracking number**: The unique tracking number per order made by customer(s)
+* **Tracking number**: The unique tracking number per order made by customer(s) on the website and create by the Delivery Service Company.
 
 Relationships:
 
